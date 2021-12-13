@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css?family=Karma");
+*{
+	margin: 0 auto;
+}
+body{
+    font-family: Karma;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+    color: #fff;
+}
+.lista{
+color: rgb(132, 39, 126);
+
+}
+.lista:hover{
+    background-color: rgb(132, 39, 126);
+    color: white; 
+
+}
+.nav-links a:hover{
+    color: white;
+}
+.nav-links {
+    margin-right: 250px;
+}
+#logo {
+    width: 80px;
+    margin-left: 230px;
+}
+.menu {
+display: flex;
+gap: 1em;
+font-size: 18px;
+
+}
+.menu li {
+padding: 5px 14px;
+list-style: none;
+}
+.services {
+position: relative; 
+}
+.dropdown {
+background-color: white;
+padding: 1em 0;
+position: absolute;
+display: none;
+border-radius: 8px;
+top: 35px;
+z-index: 100000;
+} 
+
+.dropdown li + li {
+margin-top: 10px;
+}
+.dropdown li {
+padding: 0.5em 1em;
+width: 8em;
+text-align: center;
+}
+.dropdown li:hover {
+background-color: rgb(132, 39, 126);
+color: white;
+}
+.services:hover .dropdown {
+display: block;
+}
+#background {
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+    z-index: 0;
+}
+#background-img {
+    width: 100%;
+    height: auto;
+}
+#text {
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+}
+#text2 {
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    top: 55%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+}
+.gallery {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.img-gallery {
+    width: 340px;
+    height: 500px;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#footer {
+    position: relative;
+    background-color: rgb(118, 63, 180);
+    color: white;
+    height: 200px;
+	bottom:0;
+}
+.row{
+	text-align: center;
+	margin-top: 100px;
+	padding-bottom: 50px;
+}
+h1{
+	color: rgb(121, 58, 161);
+	font-size: 40px;
+}
+h2{
+	position: absolute;
+	top: 5%; padding:
+	5px; left: 45%;
+}
+h3{
+	position: absolute;	
+	top: 70%;
+	padding: 5px
+}
+.iconify{
+	color: white;
+    font-size:40px;
+}
+#author{
+    width: 100%;
+	margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+}
+#author .img{
+    width: 40%;
+}
+#author .bio{
+    width: 30%;
+}
+#author .bio p{
+    margin-top: 20px;
+}
+input{
+  width: 50%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: rgb(121, 58, 161);
+  color: white;
+  padding: 20px 10px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+
+}
+.form {
+  padding: 25px;
+  text-align: center;
+}
+button:hover {
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
